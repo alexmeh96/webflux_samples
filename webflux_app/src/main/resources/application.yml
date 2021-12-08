@@ -1,0 +1,13 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/webflux_db?schema=anime
+    username: postgres
+    password: password
+logging:
+  level:
+    org:
+      springframework: INFO
+
+server:
+  error:
+    include-stacktrace: on_param  # ?trace=true

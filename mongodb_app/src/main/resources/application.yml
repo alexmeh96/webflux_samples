@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      database: Productsdb
+      host: localhost
+      port: 27017
+
+
+server:
+  port: 8080
+
+springdoc:
+  swagger-ui:
+    path: /swagger
+  api-docs:
+    path: /api-docs
